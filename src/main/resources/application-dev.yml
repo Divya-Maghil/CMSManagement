@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://magilhub-intern.cb60w4qgw0y3.ap-south-1.rds.amazonaws.com:3306/content_management
+    username: Intern
+    password: Internmagil
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
